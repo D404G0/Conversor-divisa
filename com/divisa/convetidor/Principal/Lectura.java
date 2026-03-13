@@ -40,5 +40,6 @@ public class Lectura {
             System.out.println(e.getMessage());
             System.out.println("Finalizando");
         }
+        leer.close();
     }
 }
